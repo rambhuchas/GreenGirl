@@ -1,0 +1,14 @@
+name: 'Address autocomplete (with Google Maps API)'
+type: module
+description: 'Provides an autocomplete field for the address module through the Google Maps Javascript API. (Requires key)'
+# core: 8.x
+package: 'Field types'
+dependencies:
+  - address
+configure: address_autocomplete_gmaps.configure
+
+# Information added by Drupal.org packaging script on 2018-04-10
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'address_autocomplete_gmaps'
+datestamp: 1523347386
